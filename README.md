@@ -41,7 +41,9 @@ Access the `/publish` endpoint in your browser to send a message to the MQTT bro
 
 Once the message is sent, it will be published to the topic `miTopico` in the broker, which can be seen in the docker console as follows:
     ```bash
+    
     Servidor corriendo en http://localhost:3000
     Conectado al broker MQTT
     Suscrito al tópico: miTopico
-    ```
+       
+   ```
