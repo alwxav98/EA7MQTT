@@ -35,15 +35,15 @@ This project implements a basic MQTT-style architecture using Node.js, Express, 
 Access the `/publish` endpoint in your browser to send a message to the MQTT broker. This will trigger a message to be published to the `myTopic` topic.
 
 - In your browser, go to: http://localhost:3000/publish and the following message will appear:
+  
     ```bash
     Mensaje publicado: Hola desde Node.js con MQTT
     ```
 
 Once the message is sent, it will be published to the topic `miTopico` in the broker, which can be seen in the docker console as follows:
-    ```bash
-    
+
+   ```bash
     Servidor corriendo en http://localhost:3000
     Conectado al broker MQTT
     Suscrito al tópico: miTopico
-       
    ```
